@@ -25,7 +25,7 @@
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 10000,
+                "difficulty": 15000,
                 "desc": "Low end hardware"
             },
             {
@@ -35,11 +35,11 @@
             },
             {
                 "port": 7777,
-                "difficulty": 100000,
+                "difficulty": 200000,
                 "desc": "High end hardware"
             },
             {
-                "port": 8888,
+                "port": 2222,
                 "difficulty": 30000,
                 "desc": "Hidden port",
                 "hidden": true
