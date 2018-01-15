@@ -24,8 +24,13 @@
         "minerTimeout": 900,
         "ports": [
             {
+                "port": 1111,
+                "difficulty": 25000,
+                "desc": "High end hardware"
+            },
+            {
                 "port": 3333,
-                "difficulty": 15000,
+                "difficulty": 25000,
                 "desc": "Low end hardware"
             },
             {
