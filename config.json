@@ -25,7 +25,7 @@
         "ports": [
             {
                 "port": 443,
-                "difficulty": 20000,
+                "difficulty": 100000,
                 "desc": "SSL",
                 "type": "SSL"
             },
@@ -57,7 +57,7 @@
             }
         ],
         "varDiff": {
-            "minDiff": 10000,
+            "minDiff": 25000,
             "maxDiff": 1000000,
             "targetTime": 100,
             "retargetTime": 30,
