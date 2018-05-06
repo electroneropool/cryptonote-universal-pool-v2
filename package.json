@@ -1,6 +1,6 @@
 {
     "name": "cryptonote-universal-pool",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "license": "GPL-2.0",
     "author": "Matthew Little",
     "repository": {
@@ -14,10 +14,10 @@
         "cli-color": "*",
         "dateformat": "*",
         "base58-native": "*",
-        "multi-hashing": "git://github.com/fancoder/node-multi-hashing.git",
-        "cryptonote-util": "git://github.com/moner0/node-cryptonote-util"
+        "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git",
+        "cryptonote-util": "git://github.com/kirichenko/node-cryptonote-util.git#xmr-Nan-2.0"
     },
     "engines": {
-        "node": "0.10.48"
+        "node": ">=0.10"
     }
 }
