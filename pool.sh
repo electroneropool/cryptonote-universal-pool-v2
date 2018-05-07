@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+sudo apt-get install git redis-server libboost1.55-all-dev cmake libssl-dev
 git clone https://github.com/electroneropool/cryptonote-universal-pool-variant cn_pool 
 cd cn_pool 
 git pull origin master
@@ -11,4 +12,3 @@ echo 'DONE, NVM is ready for action'
 nvm install 8.9.3
 nvm use 8.9.3 && npm update && npm install
 echo 'DONE, now start up the pool.'
-
