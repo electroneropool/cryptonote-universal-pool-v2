@@ -109,7 +109,7 @@
         "sslcert": "./keys/cert.pem",
         "sslkey": "./keys/privkey.pem",
         "sslca": "./keys/chain.pem",
-        "password": "vsend_mynt"
+        "password": "password_to_admin"
     },
 
     "daemon": {
