@@ -1,17 +1,17 @@
-var api = "http://127.0.0.1:1117";
-var coinUnits = 1000000000000;
-var poolHost = "Coinmine.network";
+var api = "//127.0.0.1:8117";
+var coinUnits = 100;
+var poolHost = "coinmine.network";
 
-var irc = "irc.freenode.net/#mynt-pools";
+var irc = "irc.freenode.net/#etnx-pools";
 
-var email = "support@Coinmine.network";
+var email = "support@coinmine.network";
 
 var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
 
-var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
+var easyminerDownload = "/";
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
+var blockchainExplorer = "https://blockexplorer.electronero.org/block/{id}";
 
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var transactionExplorer = "https://blockexplorer.electronero.org/txid/{id}";
 
 var themeCss = "themes/default-theme.css";

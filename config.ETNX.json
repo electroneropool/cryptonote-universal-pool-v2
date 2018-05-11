@@ -19,32 +19,32 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "etnkKhid2PfWVJaf8BLwwhWZrM1XpyeiU7cE9u8P8RRaBHnxiVn9F7LPWXCk23DF3pTXuePds64ZsHtw2MPrLQ3K4AH7zQqEPV",
+        "poolAddress": "etnkHfFuanNeTe3q9dux4d9cRiLkUR4hDffvhfTp6nbhEJ5R8TY4vdyZjT4BtWxnvSJ5nfD64eCAQfKMJHSym2dj8PQqeiKmBM",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
             {	"port": 1111,
-		"difficulty": 250,
+		"difficulty": 25000,
 		"desc": "Javascript Web Miners"
 	    },
 	    {
                 "port": 3333,
-                "difficulty": 500,
+                "difficulty": 50000,
                 "desc": "Low end hardware"
             },
             {
                 "port": 5555,
-                "difficulty": 5000,
+                "difficulty": 100000,
                 "desc": "Mid range hardware"
             },
             {
                 "port": 7777,
-                "difficulty": 10000,
+                "difficulty": 500000,
                 "desc": "High end hardware"
             },
             {
                 "port": 8889,
-                "difficulty": 25000,
+                "difficulty": 250000,
                 "desc": "Hidden port",
                 "hidden": true
             }
@@ -109,11 +109,11 @@
         "sslcert": "./keys/cert.pem",
         "sslkey": "./keys/privkey.pem",
         "sslca": "./keys/chain.pem",
-        "password": "vsend_mynt"
+        "password": "password_to_admin"
     },
 
     "daemon": {
-        "host": "159.203.28.200",
+        "host": "127.0.0.1",
         "port": 26968
     },
 
