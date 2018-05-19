@@ -80,7 +80,7 @@
         "enabled": true,
         "interval": 10,
         "maxAddresses": 50,
-        "mixin": 12,
+        "mixin": 2,
         "transferFee": 30,
         "minPayment": 100,
         "maxTransactionAmount": 10000,
